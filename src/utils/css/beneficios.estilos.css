@@ -1,0 +1,902 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+/*-----------------parte de arriba hasta el boton--------------------*/
+.cabecera_beneficios, .abajo_beneficios{
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.titulo, .titulo2{
+    display: flex;
+    width: 100%;
+}
+.fondo_responsive1{
+    display: none;
+    width: 100%;
+    background-size: cover;
+}
+.fondo_responsive2{
+    display:none;
+    width: 100%;
+}
+
+.contenedor1{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4.5%;
+}
+.imagen1{
+    padding-left: 11.3%;
+
+}
+.imagen1 img{
+    width: 92%;
+    height: auto;
+}
+.texto1{
+    padding-right: 10%;
+    padding-top: 3%;
+    
+}
+.texto1 p{
+    font-family:roboto-medium;
+    
+}
+.texto1 h1{
+    font-family:roboto-medium;
+    font-size: 20px;
+}
+.espacio_entretexto1{
+    padding-bottom: 2%;
+}
+.contenedor2{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65%;
+}
+.texto2{
+    width: 40%;
+    margin-left:10%;
+}
+.texto2 p{
+    color: #FBFAFA;
+    font-size: 130%;
+    font-family:roboto-medium;
+}
+.primer_boton{
+    background-color:#FFB932 ;
+    border-radius:60px;
+    padding:4% 10%;
+    margin-top: 10%;
+    margin-left: 20%;
+    transform: translate(0%, 50%);
+}
+.letra_boton button{
+    font-size: 120%;
+    font-weight: 600;
+    color: #0054AA;
+    border: none;
+}
+.imagen2{
+    width: 60%;
+    text-align: right;
+    margin-right: 5.5%;
+}
+.imagen2 img{
+    width: 92%;
+    height: auto;
+}
+
+/*----------------------seccion por que clerni------------------------------*/
+.titulo_porque{
+    text-align: center;
+    background-color:#FBFAFA;
+    margin: 0;
+    padding: 0;
+    font-size: 160%;
+    font-family:poppins;
+    letter-spacing: 1px;
+    font-weight:bold;
+}
+
+.razones{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color:#FBFAFA;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.razones p{
+    font-family:roboto-medium;
+    font-size: 20px;
+}
+.razones h1{
+    font-family:poppins;
+    font-size: 23px;
+    color:#0054AA;
+}
+.circulos{
+    display: flex;
+    width: 25%;
+}
+.circulos img{
+    border-radius: 50%;
+    width: 60%;
+    height: auto;
+}
+.derecha img{
+    width: 70%;
+    height: auto;
+
+}
+.izquierda{
+    justify-content: flex-end;
+    padding-right:3%;
+}
+.razones_izquierda{
+    width: 75%;
+    padding-left: 1%;
+    padding-right:5%;
+    font-size:22px;
+}
+.razones_derecha{
+    width: 85%;
+    text-align: end;
+    margin-left: 8%;
+    padding-right: 4%;
+    font-size:22px;
+}
+
+/*-------------------seccion pagos clerni------------------------*/
+.contenedor3{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.imagenpagos{
+    margin-left: 15%;
+    width: 40%;
+}
+.imagenpagos img{
+    width: 95%;
+    height: auto;
+    border-radius: 50px;
+
+}
+
+.textopagos{
+    justify-content: center;
+    width: 60%;
+    margin-right: 18%;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+.textopagos h1{
+    font-size: 200%;
+    font-family:poppins;
+    font-weight:bold;
+}
+.textopagos p{
+    font-family:roboto-medium;
+    font-size: 20px;
+    padding-right: 90px;
+}
+.botones_pagos{
+    display: flex;
+    margin-top: 25%;
+    border: none;  
+}
+.botones_pagos button{
+    margin-right: 5%;
+}
+.botones_pagos img{
+    width: 80px;
+    height: auto;
+    border-radius: 50px;
+}
+
+
+
+
+/*---------------------modals -----------------*/
+.contenedor_modales_beneficios{
+    
+}
+
+
+/*modal1*/
+
+.container_modal_beneficios1{
+    display: flex;
+    flex-direction: column;
+    font-family: poppins;
+    height: 478px;
+    width: 780px;
+    border: 1px solid #0054AA;
+    background-color: #FBFAFA;   
+    box-shadow: 1px 0px 5px -1px;
+    position: relative;
+    z-index: 1;
+    z-index: 6;
+    display: none;   
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo_modals_beneficios{
+    font-family:roboto-medium;
+    width: 100%;
+    height: 74px;
+    top:0;
+    background-color: #0054AA;
+    color: cornsilk;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.modals_beneficios_contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*modal2*/
+
+.container_modal_beneficios2{
+    display: flex;
+    flex-direction: column;
+    font-family: poppins;
+    height: 478px;
+    width: 780px;
+    border: 1px solid #0054AA;
+    background-color: #FBFAFA;   
+    box-shadow: 1px 0px 5px -1px;
+    position: relative;
+    z-index: 1;
+    z-index: 6;
+    display: none;   
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*modal3*/
+
+.container_modal_beneficios3{
+    display: flex;
+    flex-direction: column;
+    font-family: poppins;
+    height: 478px;
+    width: 780px;
+    border: 1px solid #0054AA;
+    background-color: #FBFAFA;   
+    box-shadow: 1px 0px 5px -1px;
+    position: relative;
+    z-index: 1;
+    z-index: 6;
+    display: none;   
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Close Button */
+
+.close {
+    color: #0054AA;
+    background-color: #85CAF1;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 15%;
+    width: 28px;
+    height: 28px;
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    opacity: .6;
+}
+
+
+
+.close:hover,
+.close:focus {
+    color: #FFB932;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* contenido modals */
+
+.globos_texto_beneficios{
+    position: fixed;
+    left: 7%;
+    top: 23%;
+    width: 88%;
+}
+
+.celular{
+    position: fixed;
+    left: 8%;
+    top: 22%;
+    z-index: 2;
+    width: 20%;
+}
+
+.texto1_contenido_pay{
+    position: fixed;
+    color: #FBFAFA;
+    font-size: 130%;
+    font-family:roboto-medium;
+    left: 38%;
+    top: 31%;
+}
+.texto2_contenido_pay{
+    position: fixed;
+    color: #FBFAFA;
+    font-size: 130%;
+    font-family:roboto-medium;
+    left: 38%;
+    top: 48%;
+}
+.texto3_contenido_pay{
+    position: fixed;
+    color: #FBFAFA;
+    font-size: 130%;
+    font-family:roboto-medium;
+    left: 38%;
+    top: 67%;
+}
+
+
+
+.texto1_contenido_nequi{
+    position: fixed;
+    color: #FBFAFA;
+    font-size: 130%;
+    font-family:roboto-medium;
+    left: 38%;
+    top: 31%;
+}
+.texto2_contenido_nequi{
+    position: fixed;
+    color: #FBFAFA;
+    font-size: 130%;
+    font-family:roboto-medium;
+    left: 38%;
+    top: 48%;
+}
+.texto3_contenido_nequi{
+    position: fixed;
+    color: #FBFAFA;
+    font-size: 130%;
+    font-family:roboto-medium;
+    left: 38%;
+    top: 67%;
+}
+
+.texto1_contenido_banco{
+    position: fixed;
+    color: #FBFAFA;
+    font-size: 130%;
+    font-family:roboto-medium;
+    left: 38%;
+    top: 31%;
+}
+.texto2_contenido_banco{
+    position: fixed;
+    color: #FBFAFA;
+    font-size: 130%;
+    font-family:roboto-medium;
+    left: 38%;
+    top: 48%;
+}
+.texto3_contenido_banco{
+    position: fixed;
+    color: #FBFAFA;
+    font-size: 130%;
+    font-family:roboto-medium;
+    left: 38%;
+    top: 67%;
+}
+
+
+.iconos_pagos{
+    display: none;
+}
+
+
+
+/*responsive*/ 
+
+@media screen and (max-width:820px) {
+    .globos_texto_beneficios{
+        display: none;
+    } 
+    
+    .celular{
+        display: none;
+    }
+    
+    .texto1_contenido_pay{
+        position: relative;
+        color: white;
+        font-size: 130%;
+        font-family:roboto-medium;
+        background-color: #0054AA;
+        left: auto;
+        top: auto;
+        margin-top: 3%;
+        padding: 1%;
+        border-radius: 15px ;
+        letter-spacing: 1px;
+        background: rgb(79,127,176);
+        background: linear-gradient(0deg, rgba(79,127,176,1) 0%, rgba(0,84,170,1) 100%);
+    }
+
+    .texto2_contenido_pay{
+        position: relative;
+        color: white;
+        font-size: 130%;
+        font-family:roboto-medium;
+        background-color: #0054AA;
+        left: auto;
+        top: auto;  
+        margin-top: 3%;
+        padding: 1%;
+        border-radius: 15px;
+        letter-spacing: 1px;
+        background: rgb(79,127,176);
+        background: linear-gradient(0deg, rgba(79,127,176,1) 0%, rgba(0,84,170,1) 100%);
+    }
+
+    .texto3_contenido_pay{
+        position: relative;
+        color: white;
+        font-size: 130%;
+        font-family:roboto-medium;
+        background-color: #0054AA;
+        left: auto;
+        top: auto;
+        margin-top: 3%;
+        padding: 1%;
+        border-radius: 15px;
+        letter-spacing: 1px;
+        background: rgb(79,127,176);
+        background: linear-gradient(0deg, rgba(79,127,176,1) 0%, rgba(0,84,170,1) 100%);
+    }
+
+    .texto1_contenido_nequi{
+        position: relative;
+        color: white;
+        font-size: 130%;
+        font-family:roboto-medium;
+        background-color: #0054AA;
+        left: auto;
+        top: auto;  
+        margin-top: 3%;
+        padding: 2%;
+        border-radius: 15px;
+        letter-spacing: 1px;
+        background: rgb(79,127,176);
+        background: linear-gradient(0deg, rgba(79,127,176,1) 0%, rgba(0,84,170,1) 100%);
+    }
+
+    .texto2_contenido_nequi{
+        position: relative;
+        color: white;
+        font-size: 130%;
+        font-family:roboto-medium;
+        background-color: #0054AA;
+        left: auto;
+        top: auto;  
+        margin-top: 3%;
+        padding: 2%;
+        border-radius: 15px;
+        letter-spacing: 1px;
+        background: rgb(15, 15, 15);
+        background: linear-gradient(0deg, rgba(79,127,176,1) 0%, rgba(0,84,170,1) 100%);
+    }
+
+    .texto3_contenido_nequi{
+        position: relative;
+        color: white;
+        font-size: 130%;
+        font-family:roboto-medium;
+        background-color: #0054AA;
+        left: auto;
+        top: auto;
+        margin-top: 3%;
+        padding: 2%;
+        border-radius: 15px;
+        letter-spacing: 1px;
+        background: rgb(79,127,176);
+        background: linear-gradient(0deg, rgba(79,127,176,1) 0%, rgba(0,84,170,1) 100%);
+    }
+    
+    .texto1_contenido_banco{
+        position: relative;
+        color: white; 
+        font-size: 130%;
+        font-family:roboto-medium;
+        background-color: #0054AA;
+        left: auto;
+        top: auto;
+        margin-top: 3%;
+        padding: 3%;
+        border-radius: 15px;
+        letter-spacing: 1px;
+        background: rgb(79,127,176);
+        background: linear-gradient(0deg, rgba(79,127,176,1) 0%, rgba(0,84,170,1) 100%);
+    } 
+
+    .texto2_contenido_banco{
+        position: relative;
+        color: white;
+        font-size: 130%;
+        font-family:roboto-medium;
+        background-color: #0054AA;
+        left:auto;
+        top: auto;
+        margin-top: 3%;
+        padding: 3%;
+        border-radius: 15px;
+        letter-spacing: 1px;
+        background: rgb(79,127,176);
+        background: linear-gradient(0deg, rgba(79,127,176,1) 0%, rgba(0,84,170,1) 100%);
+    }
+
+    .texto3_contenido_banco{
+        position: relative;
+        color: white;
+        font-size: 130%;
+        font-family:roboto-medium; 
+        background-color: #0054AA;
+        left: auto;
+        top: auto;
+        margin-top: 3%;
+        padding: 3%;
+        border-radius: 15px;
+        text-align: center;  
+        background: rgb(79,127,176);
+        background: linear-gradient(0deg, rgba(79,127,176,1) 0%, rgba(0,84,170,1) 100%);
+
+    }
+
+    .containerImagenCelular{ 
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 6%; 
+    }
+    
+    .iconos_pagos{
+        display: flex;
+        position: absolute;
+        width: 12%;
+        top: 0.5%;
+        left: 0.5%;
+    }
+
+    .container_modal_beneficios1{
+        width: 80%;
+    }
+
+    .container_modal_beneficios2{
+        width: 80%;
+    }
+
+    .container_modal_beneficios3{
+        width: 80%;
+    }
+
+    .titulo_modals_beneficios{
+        font-size: 200%;
+    }
+
+} 
+
+/*---*/
+
+
+/*-----------------RESPONSIVE PANTALLAS MAS PEQUEÑAS-----------------------*/
+/*-----------------PRIMER CORTE-----------------------*/
+@media screen and (max-width:1170px){
+    .primer_boton{
+        margin-top: -5%;
+        
+    }
+}
+/*-----------------SEGUNDO CORTE-----------------------*/
+@media screen and (max-width:1160px){
+    .textopagos{
+        margin-top: -1%;
+    }
+}
+/*-----------------TERCER CORTE-----------------------*/
+@media screen and (max-width:1060px){
+    .imagen1 img{
+        width: 89%;
+    }
+    .texto1 p{
+        font-size: 15px;
+        
+    }
+    .texto1 h1{
+        font-family:roboto-medium;
+        font-size: 20px;
+    }
+    .espacio_entretexto1{
+        padding-bottom: 1%;
+    }
+}
+/*-----------------CUARTO CORTE-----------------------*/
+@media screen and (max-width:1015px){
+    .contenedor1{
+        margin-top:4%;
+        padding-top:0;
+    }
+    .imagen1 img{
+        width: 89%;
+    }
+    .texto1 p{
+        font-size: 15px;
+        
+    }
+    .razones p{
+        font-size: 16px;
+    }
+    .razones h1{
+        font-size: 20px;
+      
+    }
+    .texto1 h1{
+        font-family:roboto-medium;
+        font-size: 16px;
+    }
+    .espacio_entretexto1{
+        padding-bottom: -1%;
+    }
+    .textopagos h1{
+        font-size: 150%;
+    }
+    .textopagos p{
+        font-size: 18px;
+        
+    }
+    .botones_pagos img{
+        width: 70px;
+    }
+    
+}
+/*-----------------QUINTO CORTE-----------------------*/
+@media screen and (max-width:970px){
+    .espacio_entretexto1{
+        padding-bottom:0;
+    }
+    .textopagos{
+        margin-right: 16%;
+    }
+    .textopagos p{
+        font-size: 16px;
+        
+    }
+    .botones_pagos img{
+        width: 70px;
+    }
+}
+/*-----------------SEXTO CORTE-----------------------*/
+/*-------RESPONSIVE (CAMBIA EL DISEÑO DE LOS SVG)---------*/
+@media screen and (max-width:890px){
+    .contenedor1{
+        margin-top:-1%;
+        padding-top:0;
+    }
+    .titulo{
+        display:none;
+        width: 100%;
+    }
+    .fondo_responsive1{
+        display:flex;
+        width: 100%;
+    }
+    .imagen1{
+        padding-left: 11.3%;
+    
+    }
+    .imagen1 img{
+        width: 92%;
+        height: auto;
+        display: none;
+    }
+    .texto1{
+        padding-right: 10%;
+        padding-top: 3%;
+        
+    }
+    .texto1 p{
+        text-align: center;
+        color: #FBFAFA;
+        font-size: 106%;
+        
+    }
+    .texto1 h1{
+        font-size: 20px;
+        text-align: center;
+        color: #FFB932;
+    }
+    .espacio_entretexto1{
+        padding-bottom: 2%;
+    }
+    .contenedor2{
+        margin-top: 71%;
+    }
+    .texto2 p{
+    font-size: 110%;
+    }
+    .primer_boton{
+        margin-top: 13%;
+    }
+
+    .boton_bancos:hover{
+        cursor: pointer ;
+    }
+    
+    .letra_boton button{
+        font-size: 115%;
+    }
+    .imagen2{
+        width: 60%;
+        text-align: right;
+        margin-right: 5.5%;
+    }
+    .imagen2 img{
+        width: 92%;
+        height: auto;
+    }
+    .titulo2{
+        display: none;
+    }
+    .fondo_responsive2{
+        display:flex;
+        width: 100%;
+    }
+    .imagenpagos{
+        display: none;
+    }
+    .contenedor3{
+        margin-top: 11%;
+    }
+    .textopagos{
+        text-align: center;
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .textopagos h1{
+        font-size: 180%;
+        color: #85CAF1;
+    }
+    .textopagos p{
+        color: #FBFAFA;
+        font-size: 18px;
+        padding-right:0;
+    }
+    .botones_pagos{
+        display: flex;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;   
+    }
+    .botones_pagos button{
+        margin:auto;
+    }
+    .botones_pagos img{
+        width: 70px;
+    }
+}
+/*-----------------SEPTIMO CORTE-----------------------*/
+@media screen and (max-width:755px){
+    .parche1_responsive{
+        height: 80px;
+        width: 100%;
+        background-color: #0054AA;
+    }
+    .cabecera_beneficios{
+    display: flex;
+    flex-direction: column;
+    }
+    .contenedor1{
+        margin-top:-70%;
+        padding-top:0;
+    }
+    .contenedor2{
+        margin-top: 55%;
+    }
+    .textopagos h1{
+        font-size: 160%;
+    }
+    .textopagos p{
+        font-size: 16px;
+    }
+}
+/*-----------------OCTAVO CORTE-----------------------*/
+@media screen and (max-width:675px){
+    .parche1_responsive{
+        height: 100px;
+    }
+    .contenedor1{
+        margin-top:-60%;
+        padding-top:0;
+    }
+    .contenedor2{
+        margin-top: 60%;
+        margin-right: 20%;
+        bottom: 160px;
+    }
+    .imagen2{
+        display: none;
+    }
+    .texto2{
+        width: 100%;
+        margin-right: 10%;
+    }
+    .texto2 p{
+        color: #FFB932;
+        text-align: center;
+        font-size: 130%;
+    }
+    .primer_boton{
+        padding:3% 8%;
+        margin-top: -10%;
+        margin-left: 32%;
+    }
+    .letra_boton button{
+        font-size: 105%;
+        font-weight: 600;
+        color: #0054AA;
+    }
+}
+@media screen and (max-width:595px){
+    .parche1_responsive{
+        height: 200px;
+    }
+    .contenedor1{
+        margin-top:-80%;
+        padding-top:0;
+    }
+}
+/*---------------------PARCHES--------------------*/
+.botones_pagos button{
+    border: none;  
+    background: none;
+    border-radius: 50px;
+}

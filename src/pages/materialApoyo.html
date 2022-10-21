@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Material de apoyo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="../utils/images/favicon.png">
+    <link rel='stylesheet' type='text/css' media='screen' href='../utils/css/glogalStyles.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../utils/css/material.estilos.css'>
+    <script src='../utils/js/materialApoyo.js'></script>
+    <script src="../utils/js/cargaDePaginas.js"></script>
+</head>
+<body onload="onMyLoad()">
+    <div class="">
+        <div class="">
+            <!--------------------------------------------MENU----------------------------------------------------->
+    <header class="contenedor_menu">
+        <img id="logo" src="../utils/images/CLERNI.svg">
+        <input type="checkbox" id="boton_menu" value="1" onchange="myFunctionMenu()"/>
+        <label for="boton_menu"><img src="../utils/images/menu.svg"></label>
+        <nav class="menu_r" id="menu_r">
+            <ul>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../pages/metodologia.html">Metodología</a></li>
+                <li><a href="../pages/beneficios.html">Beneficios</a></li>
+                <li><a onclick="materialDeApoyo()" href="../pages/materialApoyo.html">Material de apoyo</a></li>
+                <li><a href="http://127.0.0.1:8081/scriptcase/app/clerni/secu_Login/">Iniciar sesión</a></li>
+            </ul>
+        </nav>
+        <nav class="menu" id="menu">
+            <ul>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../pages/metodologia.html">Metodología</a></li>
+                <li><a href="../pages/beneficios.html">Beneficios</a></li>
+                <li><a onclick="materialDeApoyo()" href="../pages/materialApoyo.html">Material de apoyo</a></li>
+                <li id="iniciar_sesion"><a href="http://127.0.0.1:8081/scriptcase/app/clerni/secu_Login/">Iniciar sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="../utils/js/menu.js"></script>
+    <!---------------------------------------- FIN DEL MENU -------------------------------------------------->
+        </div>
+    </div>
+    <div class="materialCompleto">
+    <div class="menuLateral">
+            <h2 class="TituloNivel">Selecciona tu nivel</h2>
+            <div class="botones">
+            <div class="botonMenu" onclick="intro()"> <!--Boton para material introductorio-->
+                <img class="imagenLadoBoton" src="../utils/images/materialApoyo/naranja.svg">
+                <div class="nombreBotonMenu1">Introducción</div>
+            </div>
+            <div class="botonMenu" onclick="nivelA1()"> <!--Boton para material A1-->
+                <img class="imagenLadoBoton" src="../utils/images/materialApoyo/sombrillas.svg">
+                <div class="nombreBotonMenu">A1</div>
+            </div>
+            <div class="botonMenu" onclick="nivelA2()"> <!--Boton para material A2-->
+                <img class="imagenLadoBoton" src="../utils/images/materialApoyo/paisajeMaterial.svg">
+                <div class="nombreBotonMenu">A2</div>
+            </div>
+            <div class="botonMenu" onclick="nivelB1()"> <!--Boton para material B1-->
+                <img class="imagenLadoBoton" src="../utils/images/materialApoyo/marMaterial.svg">
+                <div class="nombreBotonMenu">B1</div>
+            </div>
+            <div class="botonMenu" onclick="nivelB2()"> <!--Boton para material B2-->
+                <img class="imagenLadoBoton" src="../utils/images/materialApoyo/fabricaMaterial.svg">
+                <div class="nombreBotonMenu">B2</div></div>
+            </div>
+    </div></div>
+    <div class="MaterialdeApoyoInicio"> <!--Pagina principal-->
+        <div class="paginaIntroduc">
+            <div class="grupoIntro"><h2 class="tituloPagIntro">Material de apoyo</h2>
+            <p class="parrafoInicio">Bienvenido al sector de <em>material de apoyo</em>, aqui podrá encontrar los niveles de ingles manejados, seleccione el que corresponde</p></div>
+            <img class="imagenIntro" src="../utils/images/metodologia/paisaje.jpg">
+        </div>
+    </div>
+    <!--MATERIAL DE APOYO POR NIVELES-->
+    <div class="MaterialdeApoyoNivelIntro"> <!--Material nivel Introductorio-->
+        <div class="CaraPrincipalMaterial">
+            <h2 class="TituloPdfs">Material de apoyo - Introductorio</h2>
+            <div class="guardarPDFs">
+                <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+                <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+                <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+                <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+            </div>
+        </div>
+    </div>
+    <div class="MaterialdeApoyoNivelA1"> <!--Material nivel A1-->
+    <div class="CaraPrincipalMaterial">
+        <h2 class="TituloPdfs">Material de apoyo - A1</h2>
+        <div class="guardarPDFs">
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+        </div>
+    </div>
+</div>
+<div class="MaterialdeApoyoNivelA2"><!--Material nivel A2-->
+    <div class="CaraPrincipalMaterial">
+        <h2 class="TituloPdfs">Material de apoyo - A2</h2>
+        <div class="guardarPDFs">
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+        </div>
+    </div>
+</div>
+<div class="MaterialdeApoyoNivelB1"> <!--Material nivel B1-->
+    <div class="CaraPrincipalMaterial">
+        <h2 class="TituloPdfs">Material de apoyo - B1</h2>
+        <div class="guardarPDFs">
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+        </div>
+    </div>
+</div>
+<div class="MaterialdeApoyoNivelB2"> <!--Material nivel B2-->
+    <div class="CaraPrincipalMaterial">
+        <h2 class="TituloPdfs">Material de apoyo - B2</h2>
+        <div class="guardarPDFs">
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+            <button type="button" class="opcionesBotonPDF" onclick="">PDF</button>
+        </div>
+    </div>
+</div>
+    </div>
+</body>
+</html>
